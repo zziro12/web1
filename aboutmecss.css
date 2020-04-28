@@ -1,0 +1,70 @@
+body{
+	background-color: #BDBDBD;
+}
+header, section, footer{
+	background-color: white;
+	width : 90%;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: green;
+}
+a:hover{
+	color : red;
+}
+
+header{
+	margin-bottom: 15px;
+	height: 90px;
+	overflow: auto;
+	clear: both;
+}
+
+li{
+	list-style: none;
+	font-weight: 900;
+}
+.headerlist{
+	margin: 10px 20px 10px 0px;
+	width: 130px;
+	height: 40px;
+	background-color: #B2CCFF;
+	box-shadow: 5px 10px #B5B2FF;
+	
+	float: right;
+
+	text-align: center;
+	line-height: 40px;
+
+	box-sizing: border-box;
+
+}
+#aboutmesection{
+	overflow: auto;
+}
+
+
+#aboutmeh3, .aboutmep {
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+#aboutmeh3{
+	margin-bottom: 0px;
+}
+.aboutmep{
+	margin-top: 0px;
+}
+
+
+footer{
+	margin-top: 15px;
+	height: 90px;
+	text-align: center;
+}
+
+footer> p{
+	padding-top: 37px;
+}
